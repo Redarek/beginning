@@ -1,16 +1,16 @@
 function outputNumbers (a) {
 	switch (a) {
-		case 5: return 'пять'
-		case 13: return 'тринадцать'
-		case 22: return 'двадцать два'
-		case 35: return 'тридцать пять'
-		case 98: return 'девяносто восемь'
-		default: return a
+		case 5: console.log('пять'); break
+		case 13: console.log('тринадцать'); break
+		case 22: console.log('двадцать два'); break
+		case 35: console.log('тридцать пять'); break
+		case 98: console.log('девяносто восемь'); break
+		default: console.log(a); break
 	}
 }
-console.log(outputNumbers(5))
-console.log(outputNumbers(13))
-console.log(outputNumbers(22))
-console.log(outputNumbers(35))
-console.log(outputNumbers(98))
-console.log(outputNumbers(1109))
+outputNumbers(5)
+outputNumbers(13)
+outputNumbers(22)
+outputNumbers(35)
+outputNumbers(98)
+outputNumbers(1109)
